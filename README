@@ -1,0 +1,34 @@
+README
+
+HW4 (arith)
+Feb. 23, 2022
+
+=== Names ===
+Miguel Larena (mlaren01)
+Joshua Thomas (jthoma21)
+
+=== Architecture ===
+a) 40image.c - Main function that invokes the appropriate compress and 
+               decompress functions
+
+b) compress40.c - Drives logic for compress and decompress functions, and 
+                  invokes the relevant helper functions
+
+c) compressions.c - Contains definitions for all compression helper functions.
+    
+d) decompressions.c - Contains definitions for all decompression helper 
+                      functions.
+
+e) bitpack.c - Defines helper functions for bitpacking and unpacking codewords.
+    
+    
+=== Acknowledgements ===
+We received help in office hours throughout all steps of the program. 
+
+We have correctly implemented compress40.c, compressions.c, decompressions.c,
+and bitpack.c to compile and run with no errors or leaks. For incorrectly
+formatted files, decopressions.c will raise a C.R.E.
+
+=== Hours Spent ===
+About 15 hours were spent analyzing the problems for the assignment and
+about another 35 hours solving the problems.
