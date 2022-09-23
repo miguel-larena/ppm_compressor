@@ -1,11 +1,10 @@
 README
 
-HW4 (arith)
 Feb. 23, 2022
 
-=== Names ===
-Miguel Larena (mlaren01)
-Joshua Thomas (jthoma21)
+=== By ===
+Miguel Larena
+Joshua Thomas
 
 === Architecture ===
 a) 40image.c - Main function that invokes the appropriate compress and 
@@ -22,8 +21,7 @@ d) decompressions.c - Contains definitions for all decompression helper
 e) bitpack.c - Defines helper functions for bitpacking and unpacking codewords.
     
     
-=== Acknowledgements ===
-We received help in office hours throughout all steps of the program. 
+=== Notes ===
 
 We have correctly implemented compress40.c, compressions.c, decompressions.c,
 and bitpack.c to compile and run with no errors or leaks. For incorrectly
